@@ -29,10 +29,10 @@ def extract_page_info(xml_file):
     for page in pages:
         title = page.find('./mw:title', namespace).text
         text = page.find('./mw:revision/mw:text', namespace).text
-        # ct=convert_to_markdown(text)
-        # write_file(title,ct)
-        count+=1
-    print("Count = ",count)
+        ct=convert_to_markdown(text)
+        write_file(title,ct)
+        #count+=1
+    #print("Count = ",count)
 
 xml_file_path = "C://Users//kavin//Desktop//VPT//Tamil+Wiki-20231029024626.xml"
 extract_page_info(xml_file_path)
