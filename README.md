@@ -1,6 +1,6 @@
 # Venmurasu Programming Contest Website 🚀
 
-Welcome to the Venmurasu Programming Contest website – your gateway to a world of coding excellence and innovation!
+Welcome to the Venmurasu Programming Contest website (Tamil-wiki) – your gateway to a world of coding excellence and innovation!
 
 ## Overview
 
