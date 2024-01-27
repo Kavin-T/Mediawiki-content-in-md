@@ -14,7 +14,7 @@ The themes used in this project are sourced from the official Hugo Themes reposi
 
 Follow these steps to set up the project locally:
 
-### Step 1: Convert XML to MD
+## Step 1: Convert XML to MD
 
 To convert your XML content to Markdown, we've utilized Pandoc and a PHP script. Run the following commands:
 
@@ -22,18 +22,18 @@ Convert MediaWiki pages to GitHub flavored Markdown (or other formats supported 
 
 You may also be interested in a forked version of this codebase available at https://github.com/outofcontrol/mediawiki-to-gfm
 
-## Requirements
+### Requirements
 
 * PHP
 * Pandoc
 
 
-## Export MediaWiki Pages
+### Export MediaWiki Pages
 
 You'll export all your pages as a single XML file following these steps: http://en.wikipedia.org/wiki/Help:Export
 
 
-## Installation
+### Installation
 
 ### Install Pandoc
 
@@ -50,7 +50,7 @@ http://johnmacfarlane.net/pandoc/installing.html
 `php composer.phar install`
 
 
-## Run
+### Run
 
 ####--filename####
 The only required parameter is `filename` for the name of the xml file you exported from MediaWiki, eg: 
